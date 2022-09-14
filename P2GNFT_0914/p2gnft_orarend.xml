@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TakacsBalint_orarend>
+	<ora id="0001" tipus="eloadas">
+		<targy>Web technologiak I.</targy>
+		<idopont>
+			<nap>hetfo</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>XXXII.</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0002" tipus="gyakorlat">
+		<targy>Web technologiak I.</targy>
+		<idopont>
+			<nap>hetfo</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>Inf. 101.</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0003" tipus="eloadas">
+		<targy>Mesterseges inteligenciak alapjai</targy>
+		<idopont>
+			<nap>kedd</nap>
+			<tol>9</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>II.</helyszin>
+		<oktato>Kunne Dr. Tamas Judit</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0004" tipus="eloadas">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>XXXII.</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0005" tipus="eloadas">
+		<targy>Algoritmusok es vizsgalatuk</targy>
+		<idopont>
+			<nap>kedd</nap>
+			<tol>14</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>X.</helyszin>
+		<oktato>Dr. Hazy Attila</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0006" tipus="gyakorlat">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>szerda</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>Inf. 101.</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0007" tipus="gyakorlat">
+		<targy>Mesterseges inteligenciak alapjai</targy>
+		<idopont>
+			<nap>szerda</nap>
+			<tol>14</tol>
+			<ig>15</ig>
+		</idopont>
+		<helyszin>Inf. 17.</helyszin>
+		<oktato>Fazekas Levente</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+	
+	<ora id="0008" tipus="eloadas">
+		<targy>Vallalatirendszerek</targy>
+		<idopont>
+			<nap>szerda</nap>
+			<tol>16</tol>
+			<ig>20</ig>
+		</idopont>
+		<helyszin>Inf. 103.</helyszin>
+		<oktato>Dr. Sasvari Peter</oktato>
+		<szak>Prog.inf.</szak>
+	</ora>
+</TakacsBalint_orarend>

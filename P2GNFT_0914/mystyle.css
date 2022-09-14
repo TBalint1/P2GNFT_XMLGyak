@@ -1,0 +1,13 @@
+table{
+	 margin: auto;
+	 background-color: lightblue;
+	 width: 100%;
+}
+th {
+  background-color: blue;
+  color: white;
+}
+td {
+  text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}

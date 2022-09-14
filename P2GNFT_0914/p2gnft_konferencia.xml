@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Konferencia>
+	<cim>XML bemutato</cim>
+	<hallgatok>
+		<hallgato>
+			<nev>Takacs Balint</nev>
+			<lakcim>3532 Miskolc, NA</lakcim>
+		</hallgato>
+	</hallgatok>
+	<helyszin>Miskolci Egyetem</helyszin>
+	<eloado>
+		<nev>Bednarik Laszlo</nev>
+		<adoszam>01010110NA</adoszam>
+		<lakcim>Miskolc</lakcim>
+	</eloado>
+	<datum>2022.09.14.</datum>
+</Konferencia>
