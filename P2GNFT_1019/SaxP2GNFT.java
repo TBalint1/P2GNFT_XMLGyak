@@ -22,7 +22,7 @@ public class SaxP2GNFT {
 
             SaxHandler handler = new SaxHandler();
 
-            saxParser.parse(new File("kurzusfelvetel1.xml"), handler);
+            saxParser.parse(new File("TB_kurzusfelvetel.xml"), handler);
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
