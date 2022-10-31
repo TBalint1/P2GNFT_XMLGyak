@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("kek.jpg");
+    color: white;
+}
+
+#content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+header {
+    padding-top: 30px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+header img {
+    width: 300px;
+    margin: auto;
+}
+
+#menu-bar {
+    padding: 30px;
+}
+
+#menu-bar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#current {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summary h1 {
+    margin-bottom: 10px;
+}
+
+.summary ol {
+    margin-left: 1em;
+}
+
+.summary ol li {
+    padding-left: 0.5em;
+}
+
+main img {
+    display: block;
+    max-width: 300px;
+}
