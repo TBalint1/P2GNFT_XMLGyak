@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TB_orarend
   xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-  xs:noNamespaceSchemaLocation="./MB_orarend.xsd"
+  xs:noNamespaceSchemaLocation="./TB_orarend.xsd"
 
 >
 
