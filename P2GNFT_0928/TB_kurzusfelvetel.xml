@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MB_kurzusfelvetel SYSTEM "./TB_kurzusfelvetel.dtd">
+
+<TB_kurzusfelvetel  
+
+  <kurzus>
+
+    <targy>Webtechnologiak</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>08:00:00</tol>
+            <ig>10:00:00</ig>
+        </idopont>
+
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>18:00:00</tol>
+            <ig>20:00:00</ig>
+        </idopont>
+    <oraado>Agardi Anita</oraado>
+
+  </kurzus>
+
+  <kurzus jovahagyas="igen">
+
+    <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12:00:00</tol>
+            <ig>14:00:00</ig>
+        </idopont>
+
+        <idopont>
+            <nap>szerda</nap>
+            <tol>12:00:00</tol>
+            <ig>14:00:00</ig>
+        </idopont>
+    <oktato>Dr. Bednarik Laszlo</oktato>
+
+  </kurzus>
+
+</TB_kurzusfelvetel>

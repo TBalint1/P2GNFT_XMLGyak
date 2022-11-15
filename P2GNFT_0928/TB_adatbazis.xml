@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "./TB_adatbazis.dtd">
+
+<adatbazis>
+
+  <dolgozo kod="01">
+    <nev>Példa Péter</nev>
+    <fizetes>200000</fizetes>
+  </dolgozo>
+
+  <dolgozo kod="02">
+    <nev>Kiss Imre</nev>
+    <fizetes>175000</fizetes>
+  </dolgozo>
+
+  <dolgozo kod="03">
+    <nev>Nagy Anna</nev>
+    <fizetes>350000</fizetes>
+  </dolgozo>
+
+</adatbazis>
