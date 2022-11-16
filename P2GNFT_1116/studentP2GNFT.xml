@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="studentP2GNFT.xsl"?>
+<class>
+
+    <student id = "01">
+        <keresztnev>Bálint</keresztnev>
+        <vezeteknev>Takács</vezeteknev>
+        <becenev>Taki</becenev>
+        <kor>21</kor>
+        <osztondij>40000</osztondij>
+    </student>    
+
+    <student id = "02">
+        <keresztnev>Péter</keresztnev>
+        <vezeteknev>Fekete</vezeteknev>
+        <becenev>Petya</becenev>
+        <kor>22</kor>
+        <osztondij>23000</osztondij>
+    </student>
+
+    <student id = "03">
+        <keresztnev>Andrea</keresztnev>
+        <vezeteknev>Zsoldos</vezeteknev>
+        <becenev>Andi</becenev>
+        <kor>22</kor>
+        <osztondij>55000</osztondij>
+    </student>
+</class>
+
