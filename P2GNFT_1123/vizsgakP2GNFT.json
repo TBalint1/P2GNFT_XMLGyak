@@ -1,0 +1,40 @@
+{
+    "_id": "P2GNFT",
+    "vizsgak_P2GNFT": {
+        "vizsga": [
+            {
+                "kurzus": "Adatkezelés XML-ben",
+                "helyszin": "Inf. 101.",
+                "idopont": {
+                    "nap": "kedd",
+                    "tol": 12,
+                    "ig": 14
+                },
+                "oktato": "Dr. Bednarik László",
+                "jegy": 4
+            },
+            {
+                "kurzus": "Mesterséges Intelligencia alapjai",
+                "helyszin": "II. Előadó",
+                "idopont": {
+                    "nap": "kedd",
+                    "tol": 9,
+                    "ig": 12
+                },
+                "oktato": "Kunné Dr. Tamás Judit",
+                "jegy": 2
+            },
+            {
+                "kurzus": "Webtechnológiák I.",
+                "helyszin": "XXX. Előadó",
+                "idopont": {
+                    "nap": "hétfő",
+                    "tol": 8,
+                    "ig": 10
+                },
+                "oktato": "Dr. Agárdi Anita",
+                "jegy": 5
+            }
+        ]
+    }
+}

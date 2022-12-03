@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vizsgak_P2GNFT>
+    
+    <vizsga>
+      <kurzus>Adatkezelés XML-ben</kurzus>
+      <helyszin>Inf. 101.</helyszin>
+      <idopont>
+        <nap>kedd</nap>
+        <tol>12</tol>
+        <ig>14</ig>
+      </idopont>
+      <oktato>Dr. Bednarik László</oktato>
+      <jegy>4</jegy>
+    </vizsga>
+
+    <vizsga>
+      <kurzus>Mesterséges intelligencia alapjai</kurzus>
+      <helyszin>II. Előadó</helyszin>
+      <idopont>
+        <nap>kedd</nap>
+        <tol>09</tol>
+        <ig>12</ig>
+      </idopont>
+      <oktato>Kunné Dr. Tamás Judit</oktato>
+      <jegy>2</jegy>
+    </vizsga>
+
+    <vizsga>
+      <kurzus>Webtechnológiak I.</kurzus>
+      <helyszin>XXX. Előadó</helyszin>
+      <idopont>
+        <nap>Hétfő</nap>
+        <tol>08</tol>
+        <ig>10</ig>
+      </idopont>
+      <oktato>Dr. Agárdi Anita</oktato>
+      <jegy>5</jegy>
+    </vizsga>
+
+</vizsgak_P2GNFT>
