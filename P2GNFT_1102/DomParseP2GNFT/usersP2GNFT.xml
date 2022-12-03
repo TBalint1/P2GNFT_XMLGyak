@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<users>
+        <user id = "01">
+                        <firstName>Balint</firstName>
+                        <lastName>Takacs</lastName>
+                        <profession>IT</profession>       
+        </user>
+
+        <user id = "02">
+                        <firstName>Peter</firstName>
+                        <lastName>Pelda</lastName>
+                        <profession>Project manager</profession>       
+        </user>
+
+        <user id = "03">
+                        <firstName>Miklos</firstName>
+                        <lastName>Minta</lastName>
+                        <profession>Engineer</profession>       
+        </user>
+</users>

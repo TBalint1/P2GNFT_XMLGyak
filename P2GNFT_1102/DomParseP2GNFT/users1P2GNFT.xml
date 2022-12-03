@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="DomP2GNFT">
+  <user id="01">
+    <firstname>Balint</firstname>
+    <lastname>Takacs</lastname>
+    <profession>IT</profession>
+  </user>
+  <user id="02">
+    <firstname>Peter</firstname>
+    <lastname>Pelda</lastname>
+    <profession>Project manager</profession>
+  </user>
+  <user id="01">
+    <firstname>Miklos</firstname>
+    <lastname>Minta</lastname>
+    <profession>Engineer</profession>
+  </user>
+</users>
