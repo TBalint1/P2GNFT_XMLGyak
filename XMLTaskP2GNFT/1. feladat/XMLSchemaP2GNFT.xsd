@@ -1,36 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="bajnoksag">
-    <xs:complextype>
-        <xs:sequence>
-            <xs:element name="csapat" type="csapatTipus" maxOccurs="unbounded" />
-            <xs:element name="jatekos" type="jatekosTipus" maxOccurs="unbounded" />
-            <xs:element name="edzo" type="edzoTipus" maxOccurs="unbounded" />
-            <xs:element name="biro" type="biroTipus" maxOccurs="unbounded" />
-            <xs:element name="meccs" type="meccsTipus" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complextype>
+    <xs:element name="bajnoksag">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="csapat" type="csapatTipus" maxOccurs="unbounded" />
+                <xs:element name="jatekos" type="jatekosTipus" maxOccurs="unbounded" />
+                <xs:element name="edzo" type="edzoTipus" maxOccurs="unbounded" />
+                <xs:element name="biro" type="biroTipus" maxOccurs="unbounded" />
+                <xs:element name="meccs" type="meccsTipus" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+
+        <!--Kulcsok-->
+
+        <xs:key name="csapat_kulcs">
+            <xs:selector xpath="csapat"></xs:selector>
+            <xs:field xpath="@csapat_ID"></xs:field>
+        </xs:key>
+        <xs:key name="jatekos_kulcs">
+            <xs:selector xpath="jatekos"></xs:selector>
+            <xs:field xpath="@jatekos_ID"></xs:field>
+        </xs:key>
+        <xs:key name="edzo_kulcs">
+            <xs:selector xpath="edzo"></xs:selector>
+            <xs:field xpath="@edzo_ID"></xs:field>
+        </xs:key>
+        <xs:key name="biro_kulcs">
+            <xs:selector xpath="biro"></xs:selector>
+            <xs:field xpath="@biro_ID"></xs:field>
+        </xs:key>
+        <xs:key name="meccs_kulcs">
+            <xs:selector xpath="meccs"></xs:selector>
+            <xs:field xpath="@meccs_ID"></xs:field>
+        </xs:key>
+
+        <!--Idegen kulcsok-->
+
+        <xs:keyref refer="csapat_kulcs" name="jatekos_idegen_kulcs">
+            <xs:selector xpath="jatekos" />
+            <xs:field xpath="@csapattag" />
+        </xs:keyref>
+
+        <xs:keyref refer="meccs_kulcs" name="csapat_idegen_kulcs">
+            <xs:selector xpath="csapat" />
+            <xs:field xpath="@rv" />
+        </xs:keyref>
+
+        <xs:keyref refer="meccs_kulcs" name="biro_idegen_kulcs">
+            <xs:selector xpath="biro" />
+            <xs:field xpath="@vezet" />
+        </xs:keyref>
+
+        <!-- Az 1:1 kapcsolat megvalósítása -->
+        <xs:unique name="unique_edzo">
+            <xs:selector xpath="edzo"></xs:selector>
+            <xs:field xpath="@stabtag"></xs:field>
+        </xs:unique>
+
+    </xs:element>
 
     <!--Összetett típúsok-->
 
-    <xs:complextype name ="csapatTipus">
+    <xs:complexType name="nevTipus">
+        <xs:sequence>
+            <xs:element name="vezeteknev" type="xs:string" />
+            <xs:element name="keresztnev" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="csapatTipus">
         <xs:sequence>
             <xs:element name="nev" type="xs:string" />
             <xs:element name="szekhely" type="xs:string" />
             <xs:element name="alapitas_eve" type="xs:integer" />
-            <xs:element name="csapat_szine" type="xs:string" />
+            <xs:element name="szin" type="xs:string" />
         </xs:sequence>
 
         <xs:attribute name="csapat_ID" type="xs:integer" use="required" />
         <xs:attribute name="rv" type="xs:integer" use="required" />
 
-    </xs:complextype>
+    </xs:complexType>
 
-    <xs:complextype name ="jatekosTipus">
+    <xs:complexType name="jatekosTipus">
         <xs:sequence>
-            <xs:element name="vezeteknev" type="xs:string" />
-            <xs:element name="keresztnev" type="xs:string" />
+            <xs:element name="nev" type="nevTipus" />
             <xs:element name="poszt" type="xs:string" />
             <xs:element name="kor" type="xs:integer" />
             <xs:element name="nemzetiseg" type="xs:string" />
@@ -39,25 +93,23 @@
         <xs:attribute name="jatekos_ID" type="xs:integer" use="required" />
         <xs:attribute name="csapattag" type="xs:integer" use="required" />
 
-    </xs:complextype>
+    </xs:complexType>
 
-    <xs:complextype name ="jatekosTipus">
+    <xs:complexType name="edzoTipus">
         <xs:sequence>
-            <xs:element name="vezeteknev" type="xs:string" />
-            <xs:element name="keresztnev" type="xs:string" />
+            <xs:element name="nev" type="nevTipus" />
             <xs:element name="kor" type="xs:integer" />
             <xs:element name="nemzetiseg" type="xs:string" />
         </xs:sequence>
 
         <xs:attribute name="edzo_ID" type="xs:integer" use="required" />
         <xs:attribute name="stabtag" type="xs:integer" use="required" />
-        
-    </xs:complextype>
 
-    <xs:complextype name ="biroTipus">
+    </xs:complexType>
+
+    <xs:complexType name="biroTipus">
         <xs:sequence>
-            <xs:element name="vezeteknev" type="xs:string" />
-            <xs:element name="keresztnev" type="xs:string" />
+            <xs:element name="nev" type="nevTipus" />
             <xs:element name="beosztas" type="xs:string" />
             <xs:element name="kor" type="xs:integer" />
             <xs:element name="nemzetiseg" type="xs:string" />
@@ -65,64 +117,17 @@
 
         <xs:attribute name="biro_ID" type="xs:integer" use="required" />
         <xs:attribute name="vezet" type="xs:integer" use="required" />
-        
-    </xs:complextype>
 
-    <xs:complextype name ="meccsTipus">
+    </xs:complexType>
+
+    <xs:complexType name="meccsTipus">
         <xs:sequence>
             <xs:element name="idopont" type="xs:string" />
             <xs:element name="helyszin" type="xs:string" />
         </xs:sequence>
 
         <xs:attribute name="meccs_ID" type="xs:integer" use="required" />
-        
-    </xs:complextype>
 
-    <!--Kulcsok-->
+    </xs:complexType>
 
-    <xs:key name="csapat_kulcs">
-        <xs:selector xpath="csapat"></xs:selector>
-        <xs:field xpath="@csapat_ID"></xs:field>
-    </xs:key>
-    <xs:key name="jatekos_kulcs">
-        <xs:selector xpath="jatekos"></xs:selector>
-        <xs:field xpath="@jatekos_ID"></xs:field>
-    </xs:key>
-    <xs:key name="edzo_kulcs">
-        <xs:selector xpath="edzo"></xs:selector>
-        <xs:field xpath="@edzo_ID"></xs:field>
-    </xs:key>
-    <xs:key name="biro_kulcs">
-        <xs:selector xpath="biro"></xs:selector>
-        <xs:field xpath="@biro_ID"></xs:field>
-    </xs:key>
-    <xs:key name="meccs_kulcs">
-        <xs:selector xpath="meccs"></xs:selector>
-        <xs:field xpath="@meccs_ID"></xs:field>
-    </xs:key>
-
-    <!--Idegen kulcsok-->
-    
-    <xs:keyref refer="csapat_kulcs" name="jatekos_idegen_kulcs">
-        <xs:selector xpath="csapat" />
-        <xs:field xpath="@csapattag" />
-    </xs:keyref>
-
-    <xs:keyref refer="meccs_kulcs" name="csapat_idegen_kulcs">
-        <xs:selector xpath="meccs" />
-        <xs:field xpath="@rv" />
-    </xs:keyref>
-
-    <xs:keyref refer="meccs_kulcs" name="biro_idegen_kulcs">
-        <xs:selector xpath="meccs" />
-        <xs:field xpath="@vezet" />
-    </xs:keyref>
-
-    <!-- Az 1:1 kapcsolat megvalósítása -->
-    <xs:unique name ="unique_edzo">
-        <xs:selector xpath="edzo"></xs:selector>
-        <xs:field xpath="stabtag"></xs:field>
-    </xs:unique>
-</xs:element>
-</xs:schema >
-
+</xs:schema>
