@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bajnoksag xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaP2GNFT.xsd">
+
+<!--Csapatok-->
+
+<csapat csapat_ID = "001" rv = "01">
+    <nev>DVTK</nev>
+    <szekhely>Miskolc</szekhely>
+    <alapitas_eve>1910</alapitas_eve>
+    <szin>piros</szin>
+</csapat> 
+
+<csapat csapat_ID = "002" rv = "01">
+    <nev>FTC</nev>
+    <szekhely>Budapest</szekhely>
+    <alapitas_eve>1899</alapitas_eve>
+    <szin>zöld</szin>
+</csapat>
+
+<csapat csapat_ID = "003" rv = "02">
+    <nev>DVSC</nev>
+    <szekhely>Debrecen</szekhely>
+    <alapitas_eve>1902</alapitas_eve>
+    <szin>fehér</szin>
+</csapat>
+
+<csapat csapat_ID = "004" rv = "02">
+    <nev>Újpest FC</nev>
+    <szekhely>Budapest</szekhely>
+    <alapitas_eve>1885</alapitas_eve>
+    <szin>lila</szin>
+</csapat> 
+
+<csapat csapat_ID = "005" rv = "03">
+    <nev>MTK</nev>
+    <szekhely>Budapest</szekhely>
+    <alapitas_eve>1888</alapitas_eve>
+    <szin>kék</szin>
+</csapat>
+
+<csapat csapat_ID = "006" rv = "03">
+    <nev>Mezőkövesd Zsóry FC</nev>
+    <szekhely>Mezőkövesd</szekhely>
+    <alapitas_eve>1975</alapitas_eve>
+    <szin>sárga</szin>
+</csapat> 
+
+ <!--Játékosok-->
+
+<jatekos jatekos_ID = "101" csapattag = "001">
+        <nev>
+            <vezeteknev>Könyves</vezeteknev>
+            <keresztnev>Norbert</keresztnev>
+        </nev>
+        <poszt>Csatár</poszt>
+        <kor>35</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "102" csapattag = "001">
+        <nev>
+            <vezeteknev>Danilovic</vezeteknev>
+            <keresztnev>Branislav</keresztnev>
+        </nev>
+        <poszt>Kapus</poszt>
+        <kor>34</kor>
+        <nemzetiseg>Szerb</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "201" csapattag = "002">
+        <nev>
+            <vezeteknev>Dibusz</vezeteknev>
+            <keresztnev>Dénes</keresztnev>
+        </nev>
+        <poszt>Kapus</poszt>
+        <kor>31</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "202" csapattag = "002">
+        <nev>
+            <vezeteknev>Nguen</vezeteknev>
+            <keresztnev>Tokmac</keresztnev>
+        </nev>
+        <poszt>Csatár</poszt>
+        <kor>28</kor>
+        <nemzetiseg>Norvég</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "301" csapattag = "003">
+        <nev>
+            <vezeteknev>Dzsudzsák</vezeteknev>
+            <keresztnev>Balázs</keresztnev>
+        </nev>
+        <poszt>Középpályás</poszt>
+        <kor>35</kor>
+        <nemzetiseg>Magyar</nemzetiseg>        
+</jatekos>
+
+<jatekos jatekos_ID = "302" csapattag = "003">
+        <nev>
+            <vezeteknev>Gróf</vezeteknev>
+            <keresztnev>Dávid</keresztnev>
+        </nev>
+        <poszt>Kapus</poszt>
+        <kor>30</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "401" csapattag = "004">
+        <nev>
+            <vezeteknev>Csongvai</vezeteknev>
+            <keresztnev>Áron</keresztnev>
+        </nev>
+        <poszt>Középpályás</poszt>
+        <kor>22</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "402" csapattag = "004">
+        <nev>
+            <vezeteknev>Csoboth</vezeteknev>
+            <keresztnev>Kevin</keresztnev>
+        </nev>
+        <poszt>Csatár</poszt>
+        <kor>21</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "501" csapattag = "005">
+        <nev>
+            <vezeteknev>Stiber</vezeteknev>
+            <keresztnev>Zoltán</keresztnev>
+        </nev>
+        <poszt>Középpályás</poszt>
+        <kor>35</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "502" csapattag = "005">
+        <nev>
+            <vezeteknev>Futács</vezeteknev>
+            <keresztnev>Márkó</keresztnev>
+        </nev>
+        <poszt>Csatár</poszt>
+        <kor>33</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "601" csapattag = "006">
+        <nev>
+            <vezeteknev>Bobál</vezeteknev>
+            <keresztnev>Dávid</keresztnev>
+        </nev>
+        <poszt>Védő</poszt>
+        <kor>24</kor>
+        <nemzetiseg>Magyar</nemzetiseg>
+</jatekos>
+
+<jatekos jatekos_ID = "602" csapattag = "006">
+        <nev>
+            <vezeteknev>Drazic</vezeteknev>
+            <keresztnev>Stefan</keresztnev>
+        </nev>
+        <poszt>Csatár</poszt>
+        <kor>31</kor>
+        <nemzetiseg>Szerb</nemzetiseg>
+</jatekos>
+
+<!--Edzők-->
+
+<edzo edzo_ID = "100" stabtag = "001">
+    <nev>
+        <vezeteknev>Kusznyecov</vezeteknev>
+        <keresztnev>Szergej</keresztnev>
+    </nev>
+    <kor>40</kor>
+    <nemzetiseg>orosz</nemzetiseg>
+</edzo>
+
+<edzo edzo_ID = "200" stabtag = "002">
+    <nev>
+        <vezeteknev>Csercseszov</vezeteknev>
+        <keresztnev>Sztanyiszlav</keresztnev>
+    </nev>
+    <kor>62</kor>
+    <nemzetiseg>orosz</nemzetiseg>
+</edzo>
+
+<edzo edzo_ID = "300" stabtag = "003">
+    <nev>
+        <vezeteknev>Blagojevic</vezeteknev>
+        <keresztnev>Srdjan</keresztnev>
+    </nev>
+    <kor>46</kor>
+    <nemzetiseg>Szerb</nemzetiseg>
+</edzo>
+
+<edzo edzo_ID = "400" stabtag = "004">
+    <nev>
+        <vezeteknev>Krusic</vezeteknev>
+        <keresztnev>Milos</keresztnev>
+    </nev>
+    <kor>44</kor>
+    <nemzetiseg>Szerb</nemzetiseg>
+</edzo>
+
+<edzo edzo_ID = "500" stabtag = "005">
+    <nev>
+        <vezeteknev>Bognár</vezeteknev>
+        <keresztnev>György</keresztnev>
+    </nev>
+    <kor>60</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</edzo>
+
+<edzo edzo_ID = "600" stabtag = "006">
+    <nev>
+        <vezeteknev>Kuttor</vezeteknev>
+        <keresztnev>Attila</keresztnev>
+    </nev>
+    <kor>51</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</edzo>
+
+<!--Bírók-->
+
+<biro biro_ID = "011" vezet = "01">
+    <nev>
+        <vezeteknev>Kassai</vezeteknev>
+        <keresztnev>Viktor</keresztnev>
+    </nev>
+    <beosztas>Játékvezető</beosztas>
+    <kor>39</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<biro biro_ID = "012" vezet = "01">
+    <nev>
+        <vezeteknev>Gulyás</vezeteknev>
+        <keresztnev>András</keresztnev>
+    </nev>
+    <beosztas>Partjelző</beosztas>
+    <kor>34</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<biro biro_ID = "021" vezet = "02">
+    <nev>
+        <vezeteknev>Bognár</vezeteknev>
+        <keresztnev>Tamás</keresztnev>
+    </nev>
+    <beosztas>Játékvezető</beosztas>
+    <kor>35</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<biro biro_ID = "022" vezet = "02">
+    <nev>
+        <vezeteknev>Kertész</vezeteknev>
+        <keresztnev>Viktor</keresztnev>
+    </nev>
+    <beosztas>Partjelző</beosztas>
+    <kor>29</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<biro biro_ID = "031" vezet = "03">
+    <nev>
+        <vezeteknev>Farkas</vezeteknev>
+        <keresztnev>Ádám</keresztnev>
+    </nev>
+    <beosztas>Játékvezető</beosztas>
+    <kor>44</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<biro biro_ID = "032" vezet = "03">
+    <nev>
+        <vezeteknev>Nagy</vezeteknev>
+        <keresztnev>Mihály</keresztnev>
+    </nev>
+    <beosztas>Partjelző</beosztas>
+    <kor>38</kor>
+    <nemzetiseg>Magyar</nemzetiseg>
+</biro>
+
+<!--Meccsek-->
+
+<meccs meccs_ID = "01">
+    <idopont>2022.07.23.</idopont>
+    <helyszin>Miskolc</helyszin>
+</meccs>
+
+<meccs meccs_ID = "02">
+    <idopont>2022.07.24.</idopont>
+    <helyszin>Debrecen</helyszin>
+</meccs>
+
+<meccs meccs_ID = "03">
+    <idopont>2022.07.25.</idopont>
+    <helyszin>Budapest</helyszin>
+</meccs>
+
+</bajnoksag>
+
+
+
+
+
+
+
