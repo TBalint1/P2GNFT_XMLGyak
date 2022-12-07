@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<bajnoksag xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaP2GNFT.xsd">
+<bajnoksag xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+xs:noNamespaceSchemaLocation="XMLSchemaP2GNFT.xsd">
 
 <!--Csapatok-->
 
@@ -83,7 +84,7 @@
             <vezeteknev>Nguen</vezeteknev>
             <keresztnev>Tokmac</keresztnev>
         </nev>
-        <poszt>csatár</poszt>
+        <poszt>Csatár</poszt>
         <kor>28</kor>
         <nemzetiseg>Norvég</nemzetiseg>
 </jatekos>
@@ -291,28 +292,16 @@
 <meccs meccs_ID = "01">
     <idopont>2022.07.23.</idopont>
     <helyszin>Miskolc</helyszin>
-    <hazai>DVTK</hazai>
-    <vendeg>FTC</vendeg>
-    <jatekvezeto>Kassai Viktor</jatekvezeto>
-    <partjelzo>Gulyás András</partjelzo>
 </meccs>
 
 <meccs meccs_ID = "02">
     <idopont>2022.07.24.</idopont>
     <helyszin>Debrecen</helyszin>
-    <hazai>DVSC</hazai>
-    <vendeg>Újpest FC</vendeg>
-    <jatekvezeto>Bognár Tamás</jatekvezeto>
-    <partjelzo>Kertész Viktor</partjelzo>
 </meccs>
 
 <meccs meccs_ID = "03">
     <idopont>2022.07.25.</idopont>
     <helyszin>Budapest</helyszin>
-    <hazai>MTK</hazai>
-    <vendeg>Mezőkövesd Zsóry FC</vendeg>
-    <jatekvezeto>Farkas Ádám</jatekvezeto>
-    <partjelzo>Nagy Mihály</partjelzo>
 </meccs>
 
 </bajnoksag>
