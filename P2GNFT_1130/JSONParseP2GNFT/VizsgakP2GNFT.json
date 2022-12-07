@@ -1,0 +1,42 @@
+{
+    "_id": "P2GNFT",
+    "vizsgak": {
+        "vizsga": {
+            "vizsga": [
+                {
+                    "kurzus": "Webtechnologiak I.",
+                    "helyszin": "XXX. eloado",
+                    "idopont": {
+                        "nap": "Hetfo",
+                        "tol": "08:00",
+                        "ig": "10:00"
+                    },
+                    "oktato": "Dr. Agardi Anita",
+                    "jegy": "5"
+                },
+                {
+                    "kurzus": "Mesterseges inteligencia alapjai",
+                    "helyszin": "II. eloado",
+                    "idopont": {
+                        "nap": "Kedd",
+                        "tol": "09:00",
+                        "ig": "12:00"
+                    },
+                    "oktato": "Kunne Dr. Tamas Judit",
+                    "jegy": "2"
+                },
+                {
+                    "kurzus": "Adatkezelés XML-ben",
+                    "helyszin": "XXXII. elpado",
+                    "idopont": {
+                        "nap": "Kedd",
+                        "tol": "12:00",
+                        "ig": "14:00"
+                    },
+                    "oktato": "Dr. Bednarik Laszlo",
+                    "jegy": "3"
+                }
+            ]
+        }
+    }
+}
